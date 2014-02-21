@@ -78,6 +78,7 @@ public class WeightedQuickUnionUF2{
      */
     public static void main(String[] args) {
         int N = StdIn.readInt();
+        int T = StdIn.readInt();
         WeightedQuickUnionUF2 uf = new WeightedQuickUnionUF2(N);
         while (!StdIn.isEmpty()) {
             int p = StdIn.readInt();
